@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(129, 227, 168, 1);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .rounded-rectangle {
+    width: 294px;
+    height: 122px;
+    background-color: rgba(226, 78, 114, 1);
+    border-radius: 40px;
+    border: 4px solid rgba(245, 0, 87, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .rounded-rectangle span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+main .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+main .text h2 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+main .text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main .img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+main .img img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgba(129, 227, 168, 1);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container h3 {
+    margin: 0;
+}
+
+footer .container .img {
+    display: flex;
+    gap: 20px;
+}
+
+footer .container .img img {
+    width: 40px;
+    height: 40px;
+}
